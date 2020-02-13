@@ -1,0 +1,6 @@
+framework module PrivateLibTest {
+  umbrella header "PrivateLibTest-umbrella.h"
+
+  export *
+  module * { export * }
+}
