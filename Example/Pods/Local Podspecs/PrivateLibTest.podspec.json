@@ -22,7 +22,7 @@
   "subspecs": [
     {
       "name": "Extension",
-      "source_files": "Extension/Classes/*"
+      "source_files": "PrivateLibTest/Classes/Extension/**/*"
     }
   ]
 }

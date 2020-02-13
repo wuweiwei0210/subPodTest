@@ -15,6 +15,8 @@
 #import "NSArray+Category.h"
 #import "NSArray+Safe.h"
 #import "NSAttributedString+Category.h"
+#import "NSString+Category.h"
+#import "UIButton+Category.h"
 
 FOUNDATION_EXPORT double PrivateLibTestVersionNumber;
 FOUNDATION_EXPORT const unsigned char PrivateLibTestVersionString[];

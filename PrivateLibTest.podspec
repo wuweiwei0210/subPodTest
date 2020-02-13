@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
     a.source_files = 'PrivateLibTest/Classes/Extension/**/*'
     
     # a.resource_bundles = {
-    #   'Extension' => ['Extension/Assets/*.png']
+    #   'Extension' => ['PrivateLibTest/Classes/Extension/Assets/*.png']
     # }
 
     # a.public_header_files = 'Pod/Classes/**/*.h'
