@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   
   
   s.subspec 'Extension' do |a|
-    a.source_files = 'PrivateLibTest/Classes/Extension/**/*'
+    a.source_files = 'PrivateLibTest/Classes/Extension/*'
     
     # a.resource_bundles = {
     #   'Extension' => ['PrivateLibTest/Classes/Extension/Assets/*.png']
