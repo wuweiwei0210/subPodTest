@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.author           = { '846591806@qq.com' => '846591806@qq.com' }
   s.source           = { :git => 'https://github.com/wuweiwei0210/subPodTest.git', :tag => s.version.to_s }
   s.ios.deployment_target = '8.0'
-  s.source_files = 'PrivateLibTest/Classes/**/*'
+  s.source_files = 'PrivateLibTest/Classes/*'
   
   # s.resource_bundles = {
   #   'PrivateLibTest' => ['PrivateLibTest/Assets/*.png']
