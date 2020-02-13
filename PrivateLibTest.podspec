@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PrivateLibTest'
-  s.version          = '0.1.1'
+  s.version          = '0.1.3'
   s.summary          = 'description of PrivateLibTest.'
   s.description      = 'jsjsjjskkakskskskskksksks'
   s.homepage         = 'https://github.com/wuweiwei0210/subPodTest.git'
