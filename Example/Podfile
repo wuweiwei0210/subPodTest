@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'PrivateLibTest_Example' do
+  pod 'PrivateLibTest', :path => '../'
+
+  target 'PrivateLibTest_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
