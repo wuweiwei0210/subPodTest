@@ -16,8 +16,7 @@ Pod::Spec.new do |s|
   s.author           = { '846591806@qq.com' => '846591806@qq.com' }
   s.source           = { :git => 'https://github.com/wuweiwei0210/subPodTest.git', :tag => s.version.to_s }
   s.ios.deployment_target = '8.0'
-  s.source_files = 'PrivateLibTest/Classes/**/*'
-  
+  #  s.source_files = 'PrivateLibTest/Classes/*'
   # s.resource_bundles = {
   #   'PrivateLibTest' => ['PrivateLibTest/Assets/*.png']
   # }
@@ -26,16 +25,16 @@ Pod::Spec.new do |s|
   # s.dependency 'AFNetworking', '~> 2.3'
   
   
-  s.subspec 'Extension' do |a|
-    a.source_files = 'PrivateLibTest/Classes/Extension/**/**'
-    
-    # a.resource_bundles = {
-    #   'Extension' => ['PrivateLibTest/Classes/Extension/Assets/*.png']
-    # }
-
-    # a.public_header_files = 'Pod/Classes/**/*.h'
-    # a.frameworks = 'UIKit', 'MapKit'
-    # a.dependency 'AFNetworking', '~> 2.3'
+  s.subspec 'ArrayCategory' do |a|
+    a.source_files = 'PrivateLibTest/Classes/ArrayCategory/**/*'
+  end
+  
+  s.subspec 'ButtonCategory' do |b|
+    b.source_files = 'PrivateLibTest/Classes/ButtonCategory/**/*'
+  end
+  
+  s.subspec 'StringCategory' do |c|
+    c.source_files = 'PrivateLibTest/Classes/StringCategory/**/*'
   end
 
 end

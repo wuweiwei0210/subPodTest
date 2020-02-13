@@ -18,11 +18,18 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "PrivateLibTest/Classes/**/*",
   "subspecs": [
     {
-      "name": "Extension",
-      "source_files": "PrivateLibTest/Classes/Extension/**/*"
+      "name": "ArrayCategory",
+      "source_files": "PrivateLibTest/Classes/ArrayCategory/**/*"
+    },
+    {
+      "name": "ButtonCategory",
+      "source_files": "PrivateLibTest/Classes/ButtonCategory/**/*"
+    },
+    {
+      "name": "StringCategory",
+      "source_files": "PrivateLibTest/Classes/StringCategory/**/*"
     }
   ]
 }
