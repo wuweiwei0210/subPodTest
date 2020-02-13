@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "NSString+Category.h"
+#import "UIButton+Category.h"
 #import "NSArray+Category.h"
 #import "NSArray+Safe.h"
 #import "NSAttributedString+Category.h"
